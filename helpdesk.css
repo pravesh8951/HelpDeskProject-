@@ -235,13 +235,6 @@ main {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-footer {
-    background-color: #0D3050;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
 #box1photo{
     width: 100%;
     height: auto;
@@ -309,4 +302,125 @@ footer {
     font-size: 32px; 
     margin-left: 25px; 
     transform: scale(1.2);
+}
+footer {
+    background-color: #0D3050;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer_container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+.footer_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer_col {
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+}
+
+.footer_col h1 {
+    font-size: 24px;
+    color: #ed7c23;
+    margin-bottom: 15px;
+}
+
+.footer_col h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer_col a {
+    color: #FFDDAE;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer_col a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer_col p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social a {
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.social a:hover {
+    transform: scale(1.2);
+    color: #ed7c23;
+}
+
+.newsletter_form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.newsletter_form input {
+    padding: 10px;
+    height: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter_form .signbtn {
+    background-color:#ed7c23 ;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.newsletter_form .signbtn:hover {
+    background-color: #e6ccb2;
+    color: #0D3050;
+}
+
+.footer_bottom {
+    text-align: center;
+    border-top: 1px solid #FFDDAE;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+.footer_bottom p {
+    margin: 5px 0;
+}
+
+.footer_bottom a {
+    color: #FFDDAE;
+    text-decoration: none;
+}
+
+.footer_bottom a:hover {
+    text-decoration: underline;
+}
+.footer_col .h5.p.span{
+    color: lightcoral;
 }
